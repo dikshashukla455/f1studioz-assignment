@@ -1,0 +1,161 @@
+.navbar a {
+	margin-left: 2rem;
+}
+.sub-nav {
+	text-align: center;
+	background-color: #34495e;
+	padding-block: 0.9rem;
+}
+.sub-nav a {
+	color: #fff;
+	margin-right: 2rem;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.sub-nav a:hover {
+	padding-bottom: 0.8rem;
+	border-bottom: 4px solid #fbcb07 !important;
+}
+.sub-nav a span {
+	background-color: #fbcb07;
+	border-radius: 5rem;
+	padding: 0.1rem 0.4rem;
+	color: black;
+	font-size: 0.8rem;
+	font-weight: bold;
+}
+.dashboard {
+	background-color: #e5e5e5;
+}
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	gap: 10px;
+	padding: 10px;
+}
+
+.item1 {
+	grid-column-start: 2;
+	grid-column-end: 8;
+}
+.tag {
+	color: #06b32a;
+	background-color: rgb(26, 188, 107, 0.2);
+	font-weight: bold;
+	border-radius: 4rem;
+	padding: 0.2rem 0.4rem;
+	text-transform: uppercase;
+	font-size: 0.9rem;
+}
+.accordion-body {
+	margin: 0 2rem;
+}
+.accordion-body .box {
+	display: flex;
+	justify-content: space-around;
+	background-color: #fff;
+	padding: 0.8rem 0.02rem;
+	margin-bottom: 0.5rem;
+	border-radius: 1rem;
+}
+.accordion-header button {
+	background-color: #c9ccce;
+}
+.sub-item {
+	display: flex;
+	justify-content: space-between;
+}
+.heading {
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+.table-head {
+	font-family: Helvetica Neue;
+	font-size: 14px;
+	font-weight: 700;
+	color: #8894a0;
+	text-transform: uppercase;
+}
+/* Timeline Container */
+.timeline {
+	background: var(--primary-color);
+	margin: 20px auto;
+	padding: 20px;
+}
+
+/* Outer Layer with the timeline border */
+.outer {
+	border-left: 2px solid #333;
+}
+
+/* Card container */
+.card {
+	position: relative;
+	margin: 0 0 20px 20px;
+	padding: 10px;
+	background: #333;
+	color: gray;
+	border-radius: 8px;
+	max-width: 400px;
+}
+
+/* Information about the timeline */
+.info {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+/* Title of the card */
+.title {
+	color: black;
+	position: relative;
+}
+
+/* Timeline dot  */
+.title::before {
+	content: "";
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background: white;
+	border-radius: 999px;
+	left: -39px;
+	border: 3px solid rgb(0, 255, 64);
+}
+.section-one {
+	background-color: rgb(250, 249, 249);
+	margin: 0 3rem;
+	padding: 3rem;
+}
+.contact {
+	display: flex;
+	justify-content: space-around;
+}
+.contact-us a {
+	text-decoration: none;
+	color: #66332b;
+	text-transform: uppercase;
+	border: 2px solid #66332b;
+	margin: 0 0.4rem;
+	padding: 0.4rem 0.6rem;
+	font-size: 0.9rem;
+}
+.nav {
+	background-color: #34495e;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.9rem 1.5rem;
+}
+.nav a {
+	color: white;
+	margin: 0 1.5rem;
+	text-decoration: none;
+}
+.navbar a {
+	color: #34495e;
+	text-decoration: none;
+}
+.active {
+	border-bottom: 0.3rem #34495e solid;
+}

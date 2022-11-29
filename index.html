@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Bootstrap demo</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<nav class="navbar bg-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand text-light"
+					><img src="./Assests/logo 2.png"
+				/></a>
+				<form class="d-flex" role="search">
+					<a href=""><img src="./Assests/Group 115.png" /></a>
+					<a href=""
+						><img src="./Assests/baseline-notifications-24px copy 2.png"
+					/></a>
+					<a href=""><img src="./Assests/Shape.png" /></a>
+					<a href=""><img src="./Assests/Oval Copy 2.png" /></a>
+				</form>
+			</div>
+		</nav>
+		<div class="sub-nav">
+			<div class="container-fluid">
+				<a href="">My Orders</a>
+				<a href="order.html">What's New <span>2</span></a>
+			</div>
+		</div>
+		<section class="dashboard">
+			<div class="grid-container">
+				<div class="">
+					<img src="./Assests/Bitmap.png" width="200" alt="" />
+					<span class="tag">Complaint</span>
+					<div id="orders-accordion">
+						<div class="accordion" id="accordionExample">
+							<div class="accordion-item" style="background-color: transparent;">
+								<h2 class="accordion-header" id="headingOne">
+									<button
+										class="accordion-button"
+										type="button"
+										data-bs-toggle="collapse"
+										data-bs-target="#collapseOne"
+										aria-expanded="true"
+										aria-controls="collapseOne"
+									>
+										Open Orders
+									</button>
+								</h2>
+								<div
+									id="collapseOne"
+									class="accordion-collapse collapse show"
+									aria-labelledby="headingOne"
+									data-bs-parent="#accordionExample"
+								>
+									<div class="accordion-body">
+										<div class="box">
+											<div class="head">Open Orders</div>
+											<div class="num">12</div>
+										</div>
+										<div class="box">
+											<div class="head">Open Orders</div>
+											<div class="num">12</div>
+										</div>
+										<div class="box">
+											<div class="head">Open Orders</div>
+											<div class="num">12</div>
+										</div>
+										<div class="box">
+											<div class="head">Open Orders</div>
+											<div class="num">12</div>
+										</div>
+										<div class="box">
+											<div class="head">Open Orders</div>
+											<div class="num">12</div>
+										</div>
+										<div class="box">
+											<div class="head">Open Orders</div>
+											<div class="num">12</div>
+										</div>
+										<div class="box">
+											<div class="head">Open Orders</div>
+											<div class="num">12</div>
+										</div>
+										<div class="box">
+											<div class="head">Open Orders</div>
+											<div class="num">12</div>
+										</div>
+										<div class="box">
+											<div class="head">Open Orders</div>
+											<div class="num">12</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="headingTwo">
+									<button
+										class="accordion-button collapsed"
+										type="button"
+										data-bs-toggle="collapse"
+										data-bs-target="#collapseTwo"
+										aria-expanded="false"
+										aria-controls="collapseTwo"
+									>
+										Open Orders
+									</button>
+								</h2>
+								<div
+									id="collapseTwo"
+									class="accordion-collapse collapse"
+									aria-labelledby="headingTwo"
+									data-bs-parent="#accordionExample"
+								></div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="headingThree">
+									<button
+										class="accordion-button collapsed"
+										type="button"
+										data-bs-toggle="collapse"
+										data-bs-target="#collapseThree"
+										aria-expanded="false"
+										aria-controls="collapseThree"
+									>
+										Open Orders
+									</button>
+								</h2>
+								<div
+									id="collapseThree"
+									class="accordion-collapse collapse"
+									aria-labelledby="headingThree"
+									data-bs-parent="#accordionExample"
+								></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item1">
+					<div class="sub-item">
+					<div class="heading">
+						Open Orders|SC Sitecheck(49)
+					</div>
+					<div class="forms">
+						<label for="inputPassword2" class="visually-hidden">Search</label>
+						<input type="text" id="myinput" class="form-control" id="inputPassword2" placeholder="Search" onkeyup="SearchFunc()">
+					</div>
+				</div>
+				
+					<table class="table table-striped" id="mytable">
+						<thead>
+							<tr>
+								<td scope="col" class="table-head">PO#</td>
+								<td scope="col" class="table-head">Customer Details</td>
+								<td scope="col" class="table-head">Order Type</td>
+								<td scope="col" class="table-head">City</td>
+								<td scope="col" class="table-head">Phone #</td>
+								<td scope="col" class="table-head">Status</td>
+							
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>42521983</td>
+
+								<td>Bement Jared
+									<br>
+									144 Curt Shores, 50, Madison..</td>
+								<td>Garage Door Install</td>
+								<td>Hixson</td>
+								<td>123 456 7890</td>
+								<td>SC Sitecheck</td>
+								<td></td>
+								<td><img src="./Assests/Shape1.png" alt=""></td>
+							</tr>
+							<tr>
+								<td>42521983</td>
+								<td>Johnson
+									<br>
+									144 Curt Shores, 50, Madison..
+								</td>
+								<td>Garage Door Install</td>
+								<td>Hixson</td>
+								<td>123 456 7890</td>
+								<td>Order Sent to Clopay</td>
+								<td><img src="./Assests/Group 4 Copy.png" alt=""></td>
+								<td><img src="./Assests/Shape1.png" alt=""></td>
+							</tr>
+							<tr>
+								<td>42521983</td>
+
+								<td>Bement Jared
+									<br>
+									144 Curt Shores, 50, Madison..</td>
+								<td>Garage Door Install</td>
+								<td>Hixson</td>
+								<td>123 456 7890</td>
+								<td>SC Sitecheck</td>
+								<td></td>
+								<td><img src="./Assests/Shape1.png" alt=""></td>
+							</tr>
+							<tr>
+								<td>42521983</td>
+								<td>Johnson
+									<br>
+									144 Curt Shores, 50, Madison..
+								</td>
+								<td>Garage Door Install</td>
+								<td>Hixson</td>
+								<td>123 456 7890</td>
+								<td>Order Sent to Clopay</td>
+								<td><img src="./Assests/Group 4 Copy.png" alt=""></td>
+								<td><img src="./Assests/Shape1.png" alt=""></td>
+							</tr>
+							<tr>
+								<td>42521983</td>
+
+								<td>Bement Jarred
+									<br>
+									144 Curt Shores, 50, Madison..</td>
+								<td>Garage Door Install</td>
+								<td>Hixson</td>
+								<td>123 456 7890</td>
+								<td>SC Sitecheck</td>
+								<td></td>
+								<td><img src="./Assests/Shape1.png" alt=""></td>
+							</tr>
+							<tr>
+								<td>42521983</td>
+								<td>Johnson
+									<br>
+									144 Curt Shores, 50, Madison..
+								</td>
+								<td>Garage Door Install</td>
+								<td>Hixson</td>
+								<td>123 456 7890</td>
+								<td>Order Sent to Clopay</td>
+								<td><img src="./Assests/Group 4 Copy.png" alt=""></td>
+								<td><img src="./Assests/Shape1.png" alt=""></td>
+							</tr>
+							<tr>
+								<td>42521983</td>
+
+								<td>Bement Jared
+									<br>
+									144 Curt Shores, 50, Madison..</td>
+								<td>Garage Door Install</td>
+								<td>Hixson</td>
+								<td>123 456 7890</td>
+								<td>SC Sitecheck</td>
+								<td></td>
+								<td><img src="./Assests/Shape1.png" alt=""></td>
+							</tr>
+							<tr>
+								<td>42521983</td>
+								<td>Johnson
+									<br>
+									144 Curt Shores, 50, Madison..
+								</td>
+								<td>Garage Door Install</td>
+								<td>Hixson</td>
+								<td>123 456 7890</td>
+								<td>Order Sent to Clopay</td>
+								<td><img src="./Assests/Group 4 Copy.png" alt=""></td>
+								<td><img src="./Assests/Shape1.png" alt=""></td>
+							</tr>
+							<tr>
+								<td>42521983</td>
+
+								<td>Bement Jared
+									<br>
+									144 Curt Shores, 50, Madison..</td>
+								<td>Garage Door Install</td>
+								<td>Hixson</td>
+								<td>123 456 7890</td>
+								<td>SC Sitecheck</td>
+								<td></td>
+								<td><img src="./Assests/Shape1.png" alt=""></td>
+							</tr>
+							<tr>
+								<td>42521983</td>
+								<td>Johnson
+									<br>
+									144 Curt Shores, 50, Madison..
+								</td>
+								<td>Garage Door Install</td>
+								<td>Hixson</td>
+								<td>123 456 7890</td>
+								<td>Order Sent to Clopay</td>
+								<td><img src="./Assests/Group 4 Copy.png" alt=""></td>
+								<td><img src="./Assests/Shape1.png" alt=""></td>
+							</tr>
+							<tr>
+								<td>42521983</td>
+
+								<td>Bement Jared
+									<br>
+									144 Curt Shores, 50, Madison..</td>
+								<td>Garage Door Install</td>
+								<td>Hixson</td>
+								<td>123 456 7890</td>
+								<td>SC Sitecheck</td>
+								<td></td>
+								<td><img src="./Assests/Shape1.png" alt=""></td>
+							</tr>
+							<tr>
+								<td>42521983</td>
+								<td>Johnson
+									<br>
+									144 Curt Shores, 50, Madison..
+								</td>
+								<td>Garage Door Install</td>
+								<td>Hixson</td>
+								<td>123 456 7890</td>
+								<td>Order Sent to Clopay</td>
+								<td><img src="./Assests/Group 4 Copy.png" alt=""></td>
+								<td><img src="./Assests/Shape1.png" alt=""></td>
+							</tr>
+							<tr>
+								<td>42521983</td>
+
+								<td>Berlin Jared
+									<br>
+									144 Curt Shores, 50, Madison..</td>
+								<td>Garage Door Install</td>
+								<td>Hixson</td>
+								<td>123 456 7890</td>
+								<td>SC Sitecheck</td>
+								<td></td>
+								<td><img src="./Assests/Shape1.png" alt=""></td>
+							</tr>
+							<tr>
+								<td>42521983</td>
+								<td>George johnson
+									<br>
+									144 Curt Shores, 50, Madison..
+								</td>
+								<td>Garage Door Install</td>
+								<td>Hixson</td>
+								<td>123 456 7890</td>
+								<td>Order Sent to Clopay</td>
+								<td><img src="./Assests/Group 4 Copy.png" alt=""></td>
+								<td><img src="./Assests/Shape1.png" alt=""></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</section>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+			crossorigin="anonymous"
+		>	
+
+	</script>
+	<script src="script.js"></script>
+	</body>
+</html>
